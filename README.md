@@ -4,13 +4,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-import matplotlib.pyplot as plt
-
-# Load Titanic dataset using Seaborn
-titanic_data = sns.load_dataset('titanic')
-
-# Display the first few rows of the dataset
-titanic_data.head()
+import matplotlib.pyplo
 
 # Data preprocessing
 titanic_data.drop(['embarked', 'class', 'who', 'adult_male', 'deck', 'embark_town', 'alive'], axis=1, inplace=True)
