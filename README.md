@@ -1,6 +1,3 @@
-# Install necessary libraries (if not already installed)
-!pip install seaborn scikit-learn matplotlib
-
 # Import libraries
 import pandas as pd
 import seaborn as sns
